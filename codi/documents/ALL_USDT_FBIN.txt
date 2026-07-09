@@ -1,0 +1,9 @@
+Document: ALL_USDT_FBIN
+Extraction method: Translate trick (English translation bypass)
+Length: 226 chars
+Total results: 15
+Extraction time: 8.65s
+================================================================================
+
+ALL_USDT_FBIN
+Binance ALL Composite Index / USDT (Binance Futures) | Exchange: Cryptocurrency | Market: Commodity Market | Market Code: E | Type: K | Exchange Symbol: ALLUSDT [Crypto] [Cryptocurrency] [Cryptocurrency] [Crypto]

@@ -1,0 +1,44 @@
+Document: Formullu Fiyat Penceresinden Emir Gönderimi
+Extraction method: Translate trick (English translation bypass)
+Length: 3034 chars
+Total results: 15
+Extraction time: 13.54s
+================================================================================
+
+Formüllü Fiyat Penceresinden Emir Gönderimi
+
+Formüllü Fiyat Penceresinden (FFP) Piyasa ve Limit türlerinde emir gönderebilen 4 tane fonksiyon bulunmaktadır. Bu fonksiyonları kullanarak emir gönderebilmek için kullandığınız formüllü fiyat penceresinin başlığında bulunan açılır menüden hesabınızı seçip ardından yanındaki kilidi aktif etmelisiniz.
+
+Önemli Not: Emir gönderim kilidinin rengi kırmızıysa emirler seçilen hesaba iletilmez, yeşilse iletir. Kilidi açmadan önce yazdığınız emir fonksiyonlarının istediğiniz gibi ve doğru çalıştığından emin olunuz. Emirlerinizi önce deneme ortamlarında deneyip sonra gerçek hesap seçimiyle aktif ediniz.
+
+Not: Emir fonksiyonlarının çalışması için aldığı parametreleri sırasıyla, eksiksiz ve doğru girdi biçimlerinde doldurmalısınız.
+
+Piyasa Tipli Emir Fonksiyonu
+
+Seçilen hesaba ve sembole sadece piyasa tipinde emir gönderilmek istendiğinde bu fonksiyon kullanılır.
+
+SendMarketOrder(Koşul, Emir Sayısı/Toplam Miktar, Sembol, Miktar, Yön, HerGüncellemedeEmirGönderilsinMi, Emir gönderim tipi, dönüş tipi)
+
+Koşul (bool): Emrin kontrol parametresidir. Bu parametreye yazılan ifade doğru (true) olana kadar emir iletilmez.
+
+NOT: Emrin iletilebilmesi için koşuldaki verilerin güncelleme alması gereklidir. Güncelleme almayacak koşullar sağlansa bile emir piyasaya iletilmez. Güncellemenin manuel olarak değil, veri yayınından gelen bir değerle olması gerekmektedir.
+
+EmirSayısı (int): Aynı fonksiyon ile kaç emir gönderileceğini sınırlamak için kullanılır. Örneğin bu parametre 1 geçilirse o fonksiyondan sadece 1 emir iletilir ve durur.
+
+NOT: Eğer emir fonksiyonun gönderim sınırı olmadan emir iletmesi isteniyorsa EmirSayisi parametresine 0 geçilmelidir.
+
+Toplam Miktar (int): Aynı fonksiyon ile toplamda kaç adet (lot) emir gönderileceğini sınırlamak için kullanılır. Örneğin bu parametre 200 geçilir ve emir adedi 10 girilirse, 20 kez 10’ar adet emir iletilir ve durur.
+
+NOT: Toplam adedi emir miktarına böldüğünüzde tam sayı çıkmıyorsa, son adet toplam miktarı geçmeyecek şekilde eksik olarak gönderilir. Bu parametre sıfır geçildiğinde emir gönderimi sınırlanmaz.
+
+Sembol (string): Emir göndermek istediğiniz sembol.
+
+Miktar (int): Gönderilecek emrin adedi.
+
+NOT: BIST Pay senedi ve VIOP için küsuratlı girilen emirler aşağı yuvarlanır. Kripto için sembolün işlem ondalığına göre ayarlanır ve küsuratlı olarak gönderilir.
+
+Yön (A/S): Bu parametreye alış yönlü emir için Buy, satış yönlü emir için Sell geçilmelidir. Emir gönderim fonksiyonu yazımı sırasında bu parametreler otomatik tamamlama içinde seçilebilir olarak gelir.
+
+HerGüncellemedeEmirGönderilsinMi (bool): Koşulun doğru (true) olduğu bir durumda emrin sürekli gönderilmesi engellenmek isteniyorsa bu parametre false, istenmiyorsa true geçilmelidir. Hiçbir parametre geçilmediği durumda False kabul edilir.
+
+NOT: Bu parametre True geçildiğinde, koşulunuz doğrulandığı sürece gelen her güncelleme ile emir gönderilir. EmirSayısı ya da ToplamMiktar değerine ulaşılıncaya kadar emir gönderimi devam eder. Koşul dışında kullandığı...

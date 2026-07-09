@@ -1,0 +1,14 @@
+Document: Binance SSL connection error
+Extraction method: Translate trick (English translation bypass)
+Length: 800 chars
+Total results: 15
+Extraction time: 8.38s
+================================================================================
+
+This error (HttpRequestException) occurs because the application cannot establish a secure (SSL) connection to Binance's servers. This situation usually stems from restrictions in network connections or security software.
+
+1. Source of the Problem: The application tries to reach the Binance address but cannot receive a response from the server. This leads to the secure connection error.
+
+2. Solution Method: To determine whether the problem stems from your computer's network settings or the internet connection you are using, try logging into MatriksIQ over a different internet connection (for example, mobile hotspot or a different network).
+
+If the problem is resolved on a different connection, it means there is a restriction in the security firewall or DNS settings of your current network.

@@ -1,0 +1,22 @@
+Document: IQ_TEKNIK_DESTEK
+Extraction method: Translate trick (English translation bypass)
+Length: 2818 chars
+Total results: 15
+Extraction time: 12.34s
+================================================================================
+
+142 MATRIKSIQ ----- SAVED SCREENS BY USER ARE STORED IN MATRIKSIQ \ USERS ----- Stored in Users folder.
+145 MATRIKSIQ ----- Alarms storage location MatriksIq\AlertRecords ----- MatriksIq\AlertRecords
+156 MATRIKSIQ ----- Dynamic bond/bank pages sent by feed MatriksIq\Pages ----- MatriksIq\Pages
+159 MATRIKSIQ ----- ARCHIVED OR RATED NEWS MATRIKSIQ\DATA\NEWS ----- Stored inside news folder
+160 MATRIKSIQ ----- USERNAME AND PASSWORD SCREEN MatriksIQ\Data\userinfo ----- Opens if started while holding shift or if MatriksIQ\Data\userinfo is deleted
+162 MATRIKSIQ ----- TRADER SETTINGS C:\MATRIKSIQ\TraderConfig ----- Stored in TraderConfig folder.
+163 MATRIKSIQ ----- SYNTHETIC ORDERS C:\MatriksIQ\SyntheticOrders ----- Stored in SyntheticOrders folder.
+164 MATRIKSIQ ----- Default Save on Chart ----- C:\MatriksIQ\DefaultScreens\ChartView (default)
+165 MATRIKSIQ ----- Save As on Chart ----- C:\MatriksIQ\DefaultScreens\ChartView (special)
+166 MATRIKSIQ ----- Save Template on Chart ----- C:\MatriksIQ\DefaultScreens\ChartView (templates)
+169 MATRIKSIQ ----- INVALID API KEY IP ERROR (BINANCE) ----- API creation requested from Binance site. Under API restrictions on Binance account, Enable Reading and Enable Spot must be checked; under IP access, Unrestricted must be selected
+2212 MATRIKSIQ ----- Application settings ----- MatriksIq\AppSettings
+2215 MATRIKSIQ ----- Closing empty boxes on screen ----- Matriks IQ < Settings < Close Closed Windows
+2216 MATRIKSIQ ----- How to color formations in Events window ----- Only detector is colored; formations have no color.
+2217 MATRIKSIQ ----- COMMUNICATION ERROR (COULD NOT CONNECT TO MAIN MACHINE) PLEASE CHECK YOUR CONNECTION SERVER ----- Control Panel < Region Language < Administrative < Change system locale Set Current system locale to Turkish (Turkey) Beta: For worldwide language support Charts: (MatriksIQ\DefaultScreens\ChartView (default)) STRATEGIES, EXPLORER AND INDICATORS: Written Strategies, Explorer and Indicators: (MatriksIQ\AlgoRecords) Running Strategies: (MatriksIQ\AlgoFiles) Backtest and Optimization Reports: (MatriksIQ\AlgoReports) Reports of Running Strategies: (MatriksIQ\AlgoLogs) Paused Strategies: (MatriksIQ\AlgoPausedLogs) Algo Trader Settings: (MatriksIQ\AlgoSettings) Wizard Records: (MatriksIQ\AlgoWizardRecords) TRADER SETTINGS: (MatriksIQ\TraderConfig) SYNTHETIC ORDER RECORDS: (MatriksIQ\SyntheticOrders) BULK ORDER RECORDS: (MatriksIQ\BulkOrderUserRecords) ALARMS: (MatriksIQ\AlertRecords) AI RECORDS: (MatriksIQ\AiRecords) ALGO FILE BACKUP: (MatriksIQ\Backups) (auto backup every 12 hours) FREQUENTLY USED SYMBOLS: (MatriksIQ\UserExperienceRecords) SYMBOL BUILDER RECORDS: (MatriksIQ\SymbolBuilderModels) FAVORITE INDICATORS: (MatriksIQ\Favoriteindicators) FAVORITE SYMBOL AND COLUMN LISTS: (MatriksIQ\FavoriteSymbolsAndColumns)

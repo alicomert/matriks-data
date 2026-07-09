@@ -1,0 +1,8 @@
+Document: C# Temel Kavramlar
+Extraction method: Translate trick (English translation bypass)
+Length: 188 chars
+Total results: 15
+Extraction time: 6.51s
+================================================================================
+
+Bu AI botu sadece uygulama kullanımı konusundaki sorularınıza hizmet etmek için tasarlandı, formül sorularınız için MatriksIQ içerisindeki Codi programlama AI botunu kullanmanız gerekiyor.
