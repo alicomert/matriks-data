@@ -1,0 +1,318 @@
+{
+  "sources": [
+    "DIGER",
+    "KAP",
+    "TUIK",
+    "TCMB",
+    "AA",
+    "ANKA",
+    "DUNYA",
+    "MNI",
+    "MATRIKS",
+    "IHA",
+    "INT"
+  ],
+  "categories": [
+    "GENEL",
+    "SIRKET",
+    "EKONOMI",
+    "SIYASI",
+    "MAKRO_VERILER",
+    "YORUM",
+    "ENERJI",
+    "DIS_EKONOMI",
+    "GELISMEKTE_OLAN_ULKELER",
+    "EMTIA",
+    "METAL",
+    "FX",
+    "TAHVIL_BONO",
+    "KRIPTO_PARALAR"
+  ],
+  "categories_en": [
+    "GENERAL",
+    "COMPANY",
+    "ECONOMY",
+    "POLITICAL",
+    "MACRO_DATA",
+    "COMMENT",
+    "ENERGY",
+    "FOREIGN_ECONOMY",
+    "DEVELOPING_COUNTRIES",
+    "COMMODITY",
+    "METAL",
+    "FX",
+    "BOND",
+    "CRYPTO_CURRENCY"
+  ],
+  "tag": [
+    "NewBusiness",
+    "Circuit",
+    "Dividends",
+    "StockTrading",
+    "ShareBuyBack",
+    "FinancialReports",
+    "Earnings",
+    "CapitalIncrease",
+    "TaxTables",
+    "BalanceSheet",
+    "FUND"
+  ],
+  "sourcesDesc": [
+    {
+      "key": "DIGER",
+      "description": {
+        "tr": "D\u0130\u011eER",
+        "en": "OTHER"
+      }
+    },
+    {
+      "key": "KAP",
+      "description": {
+        "tr": "KAP",
+        "en": "KAP"
+      }
+    },
+    {
+      "key": "TUIK",
+      "description": {
+        "tr": "T\u00dc\u0130K",
+        "en": "T\u00dc\u0130K"
+      }
+    },
+    {
+      "key": "TCMB",
+      "description": {
+        "tr": "TCMB",
+        "en": "TCMB"
+      }
+    },
+    {
+      "key": "AA",
+      "description": {
+        "tr": "AA",
+        "en": "AA"
+      }
+    },
+    {
+      "key": "ANKA",
+      "description": {
+        "tr": "ANKA",
+        "en": "ANKA"
+      }
+    },
+    {
+      "key": "DUNYA",
+      "description": {
+        "tr": "D\u00dcNYA",
+        "en": "D\u00dcNYA"
+      }
+    },
+    {
+      "key": "MNI",
+      "description": {
+        "tr": "MNI",
+        "en": "MNI"
+      }
+    },
+    {
+      "key": "MATRIKS",
+      "description": {
+        "tr": "MATR\u0130KS",
+        "en": "MATR\u0130KS"
+      }
+    },
+    {
+      "key": "IHA",
+      "description": {
+        "tr": "\u0130HA",
+        "en": "\u0130HA"
+      }
+    },
+    {
+      "key": "INT",
+      "description": {
+        "tr": "INT",
+        "en": "INT"
+      }
+    }
+  ],
+  "categoriesDesc": [
+    {
+      "key": "GENEL",
+      "description": {
+        "tr": "Genel",
+        "en": "General"
+      }
+    },
+    {
+      "key": "SIRKET",
+      "description": {
+        "tr": "\u015eirket",
+        "en": "Company"
+      }
+    },
+    {
+      "key": "EKONOMI",
+      "description": {
+        "tr": "Ekonomi",
+        "en": "Economy"
+      }
+    },
+    {
+      "key": "SIYASI",
+      "description": {
+        "tr": "Siyasi",
+        "en": "Political"
+      }
+    },
+    {
+      "key": "MAKRO_VERILER",
+      "description": {
+        "tr": "Makro Veriler",
+        "en": "Makro Data"
+      }
+    },
+    {
+      "key": "YORUM",
+      "description": {
+        "tr": "Yorum",
+        "en": "Comment"
+      }
+    },
+    {
+      "key": "ENERJI",
+      "description": {
+        "tr": "Enerji",
+        "en": "Energy"
+      }
+    },
+    {
+      "key": "DIS_EKONOMI",
+      "description": {
+        "tr": "D\u0131\u015f Ekonomi",
+        "en": "External Economy"
+      }
+    },
+    {
+      "key": "GELISMEKTE_OLAN_ULKELER",
+      "description": {
+        "tr": "Geli\u015fmekte Olan \u00dclkeler",
+        "en": "Emerging Countries"
+      }
+    },
+    {
+      "key": "EMTIA",
+      "description": {
+        "tr": "Emtia",
+        "en": "Commodity"
+      }
+    },
+    {
+      "key": "METAL",
+      "description": {
+        "tr": "Metal",
+        "en": "Metal"
+      }
+    },
+    {
+      "key": "FX",
+      "description": {
+        "tr": "Fx",
+        "en": "Fx"
+      }
+    },
+    {
+      "key": "TAHVIL_BONO",
+      "description": {
+        "tr": "Tahvil Bono",
+        "en": "Bond"
+      }
+    },
+    {
+      "key": "KRIPTO_PARALAR",
+      "description": {
+        "tr": "Kripto Paralar",
+        "en": "Crypto Currencies"
+      }
+    }
+  ],
+  "tagsDesc": [
+    {
+      "key": "NewBusiness",
+      "description": {
+        "tr": "Yeni \u0130\u015f \u0130li\u015fkisi",
+        "en": "New Business"
+      }
+    },
+    {
+      "key": "Circuit",
+      "description": {
+        "tr": "Devre Kesici",
+        "en": "Circuit"
+      }
+    },
+    {
+      "key": "Dividends",
+      "description": {
+        "tr": "Kar Pay\u0131 Da\u011f\u0131t\u0131m / Temett\u00fc",
+        "en": "Dividends"
+      }
+    },
+    {
+      "key": "StockTrading",
+      "description": {
+        "tr": "Pay Al\u0131m / Sat\u0131m",
+        "en": "Stock Trading"
+      }
+    },
+    {
+      "key": "ShareBuyBack",
+      "description": {
+        "tr": "Paylar\u0131n Geri Al\u0131nmas\u0131 Bildirimi",
+        "en": "Share Buy Back"
+      }
+    },
+    {
+      "key": "FinancialReports",
+      "description": {
+        "tr": "Finansal Raporlar",
+        "en": "Financial Reports"
+      }
+    },
+    {
+      "key": "Earnings",
+      "description": {
+        "tr": "A\u00e7\u0131klanan Kar / Zarar",
+        "en": "Earnings"
+      }
+    },
+    {
+      "key": "CapitalIncrease",
+      "description": {
+        "tr": "Sermaye Artt\u0131r\u0131m\u0131",
+        "en": "Capital Increase"
+      }
+    },
+    {
+      "key": "TaxTables",
+      "description": {
+        "tr": "Vergi Tablolar",
+        "en": "Tax Tables"
+      }
+    },
+    {
+      "key": "BalanceSheet",
+      "description": {
+        "tr": "Bilan\u00e7o Tablosu",
+        "en": "Balance Sheet"
+      }
+    },
+    {
+      "key": "FUND",
+      "description": {
+        "tr": "Fon Kodu",
+        "en": "Fund Code"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+142 MATRIKSIQ ----- KULLANICININ KAYDETTİĞİ EKRANLAR MATRİKSIQ \ USERS TUTULUR ----- Users klasörü içerisinde tutulur.
+145 MATRIKSIQ ----- Alarmlar tutulduğu yer MatriksIq\AlertRecords ----- MatriksIq\AlertRecords
+156 MATRIKSIQ ----- Yayın tarafından gönderilen dinamik tahvil bono,banka sayfaları MatriksIq\Pages ----- MatriksIq\Pages
+159 MATRIKSIQ ----- ARŞİVE ATTILAN VEYA PUANLADIĞI HABERLER MATRİKSIQ\DATA\NEWS ----- news klasörünün içrisinde tutulur
+160 MATRIKSIQ ----- KULLANICI ADI VE ŞİFRE EKRANIN AÇILMASI C:\MATRİKSIQ\Data\userinfo ----- shift’e basılıyken başlatılırsa yada MatriksIQ\Data\userinfo silinir
+162 MATRIKSIQ ----- TRADER AYARLARI C:\MATRİKSIQ\TraderConfig ----- TraderConfig klasörü içerisinde tutulur.
+163 MATRIKSIQ ----- SENTETİK EMİRLER C:\MatriksIQ\SyntheticOrders ----- SyntheticOrders klasörü içerisinde tutulur.
+164 MATRIKSIQ ----- Grafikte Varsayılan Kaydet ----- C:\MatriksIQ\DefaultScreens\ChartView (default),
+165 MATRIKSIQ ----- Grafikte Farklı Adla Kaydet ----- C:\MatriksIQ\DefaultScreens\ChartView (special)
+166 MATRIKSIQ ----- Grafikte Şablon Kaydet ----- C:\MatriksIQ\DefaultScreens\ChartView (templates)
+169 MATRIKSIQ ----- İNVALİD API KEY IP HATASI (BİNANCE) ----- Binance sitesinden apı oluşturması istenir. Binance hesabında Apı restrictions başığının altın Enable Reading işaretli Enable Spot İşaretli ıp acses başığının altında Unrestricted seçili olması gerekir
+2212 MATRIKSIQ ----- Uygulama ayarları ----- MatriksIq\AppSettings
+2215 MATRIKSIQ ----- Ekranda açılan boş kutucukları kapatma ----- Matrıks ıq <Ayarlar <Kapalı Pencereleri kapat
+2216 MATRIKSIQ ----- Olaylar pencresinde formasyonlar nasıl renklendirilir ----- sadece dedektor renklendirilir.formasyonlarda renk yoktur.
+2217 MATRIKSIQ ----- HABERLEŞME HATASI (ANA MAKİNE İLE BAĞLANTI KURULAMADI) LÜTFEN BAĞLANTINIZI KONTROL EDİN SUNUCU ----- Denetim Masası < Bölge Dil <Yönetimsel < Sistem Yerel ayarını değiştrin Geçerli Sistem ayarı Türkçe(Türkiye) Beta: Dünya çapında dil desteği için Unicode UTF-8 işaret kaldırılır restart edilir. Telnet atılır. Telnet giderse Data/symbols re-name edilip denenir
+2218 MATRIKSIQ ----- Trading modülünde Binance maliyet kar zarar verileri boş gelmesi ----- tek başına trade edilebilir enstrümanlar olmadığı için bir fiyatı yok. Örnek :usdt ,btc vb.
+2219 MATRIKSIQ ----- FORMASYON ANALİZİNDE ERİŞMEK İSTEDİĞİNİZ SAYFAYA ERİŞİM YETKİNİZ ZAMAN AŞIMINA UĞRADI HATASI ----- Sistem saati kontrol edilir. Web adresi: https://www.matriksdata.com/formation/ bu adrese tarayıcı üzerinden ulaşması gerekir.
+2221 MATRIKSIQ ----- KİŞİYE ÖZGÜ HABER PENCERERSİNDE,PORTFÖY PENCERESİNDE OLMASI GEREKTİĞİ ŞEKİLDE GELMEZSE ----- Matrıks ıq içerisinden Ayarlardan <Varsayılan Kayıtlı ekranlardan mevcut kayıtlar silinip kontrol edilir.
+2222 MATRIKSIQ ----- Grafik boş gelmesi ----- varsayılan kaydında sorun olabilir. DefaultScreens klasrundaki chartview klasorunu rename edip kapatıp açılır
+2223 MATRIKSIQ ----- YAPAY ZEKA MODÜLÜ C:\MATRİKSIQ\AiRecords ----- AiRecords içer...

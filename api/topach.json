@@ -1,0 +1,364 @@
+{
+  "mqtt": {
+    "market": {
+      "S": {
+        "topic": "mx/symbol/%s@lvl2",
+        "qos": "dl",
+        "prefix": "mx/symbol"
+      },
+      "V": {
+        "topic": "mx/derivative/%s@lvl2",
+        "qos": "dl",
+        "prefix": "mx/derivative"
+      },
+      "C": {
+        "topic": "mx/derivative/%s@lvl2",
+        "qos": "dl",
+        "prefix": "mx/derivative"
+      },
+      "I": {
+        "topic": "mx/symbol/%s@lvl2",
+        "qos": "dl",
+        "prefix": "mx/symbol",
+        "exception": {
+          "code": "exchangeId",
+          "value": [
+            23,
+            17
+          ],
+          "topic": "mx/symbol/%s@lvl2",
+          "qos": "rt",
+          "prefix": "mx/symbol"
+        },
+        "additionalException": [
+          {
+            "code": "exchangeId",
+            "value": [
+              54
+            ],
+            "topic": "mx/symbol/%s@lvl2",
+            "qos": "rt",
+            "prefix": "mx/symbol"
+          },
+          {
+            "code": "exchangeId",
+            "value": [
+              41
+            ],
+            "topic": "mx/symbol/%s@lvl2",
+            "qos": "rt",
+            "prefix": "mx/symbol"
+          },
+          {
+            "code": "exchangeId",
+            "value": [
+              65
+            ],
+            "topic": "mx/symbol/%s@lvl2",
+            "qos": "rt",
+            "prefix": "mx/symbol"
+          }
+        ]
+      },
+      "F": {
+        "topic": "mx/derivative/%s@lvl2",
+        "qos": "dl",
+        "prefix": "mx/derivative",
+        "additionalException": [
+          {
+            "code": "submarketCode",
+            "value": [
+              "CRF",
+              "CRFU",
+              "PMF",
+              "PMFU"
+            ],
+            "topic": "mx/derivative/%s",
+            "qos": "rt",
+            "prefix": "mx/derivative"
+          }
+        ]
+      },
+      "O": {
+        "topic": "mx/derivative/%s@lvl2",
+        "qos": "dl",
+        "prefix": "mx/derivative"
+      },
+      "X": {
+        "topic": "mx/symbol/%s@lvl2",
+        "qos": "rt",
+        "prefix": "mx/symbol"
+      },
+      "M": {
+        "topic": "mx/symbol/%s@lvl2",
+        "qos": "dl",
+        "prefix": "mx/symbol"
+      },
+      "Z": {
+        "topic": "mx/symbol/%s@lvl2",
+        "qos": "rt",
+        "prefix": "mx/symbol"
+      },
+      "E": {
+        "topic": "mx/symbol/%s@lvl2",
+        "qos": "rt",
+        "prefix": "mx/symbol",
+        "additionalException": [
+          {
+            "code": "exchangeId",
+            "value": [
+              73
+            ],
+            "topic": "mx/symbol/%s@lvl2",
+            "qos": "rt",
+            "prefix": "mx/symbol"
+          }
+        ]
+      },
+      "R": {
+        "topic": "mx/symbol/%s@lvl2",
+        "qos": "dl",
+        "prefix": "mx/symbol"
+      },
+      "B": {
+        "topic": "mx/symbol/%s@lvl2",
+        "qos": "dl",
+        "prefix": "mx/symbol"
+      },
+      "K": {
+        "topic": "mx/symbol/%s@lvl2",
+        "qos": "rt",
+        "prefix": "mx/symbol"
+      },
+      "D": {
+        "topic": "mx/symbol/%s@lvl2",
+        "qos": "rt",
+        "prefix": "mx/symbol"
+      }
+    },
+    "stats": {
+      "low": {
+        "topic": "mx/stats/low",
+        "qos": "dl",
+        "prefix": "mx/stats/low"
+      },
+      "high": {
+        "topic": "mx/stats/high",
+        "qos": "dl",
+        "prefix": "mx/stats/high"
+      },
+      "volume": {
+        "topic": "mx/stats/volume@lvl2",
+        "qos": "dl",
+        "prefix": "mx/stats/volume"
+      },
+      "lowYearly": {
+        "topic": "mx/stats/low/yearly",
+        "qos": "dl",
+        "prefix": "mx/stats/low/yearly"
+      },
+      "highYearly": {
+        "topic": "mx/stats/high/yearly",
+        "qos": "dl",
+        "prefix": "mx/stats/high/yearly"
+      },
+      "volumeYearly": {
+        "topic": "mx/stats/volume/yearly@lvl2",
+        "qos": "dl",
+        "prefix": "mx/stats/volume/yearly"
+      },
+      "lowMonthly": {
+        "topic": "mx/stats/low/monthly",
+        "qos": "dl",
+        "prefix": "mx/stats/low/monthly"
+      },
+      "highMonthly": {
+        "topic": "mx/stats/high/monthly",
+        "qos": "dl",
+        "prefix": "mx/stats/high/monthly"
+      },
+      "volumeMonthly": {
+        "topic": "mx/stats/volume/monthly@lvl2",
+        "qos": "dl",
+        "prefix": "mx/stats/volume/monthly"
+      },
+      "lowWeekly": {
+        "topic": "mx/stats/low/weekly",
+        "qos": "dl",
+        "prefix": "mx/stats/low/weekly"
+      },
+      "highWeekly": {
+        "topic": "mx/stats/high/weekly",
+        "qos": "dl",
+        "prefix": "mx/stats/high/weekly"
+      },
+      "volumeWeekly": {
+        "topic": "mx/stats/volume/weekly@lvl2",
+        "qos": "dl",
+        "prefix": "mx/stats/volume/weekly"
+      }
+    },
+    "statsWarrant": {
+      "low": {
+        "topic": "mx/stats/warrant/low",
+        "qos": "dl",
+        "prefix": "mx/stats/warrant/low"
+      },
+      "high": {
+        "topic": "mx/stats/warrant/high",
+        "qos": "dl",
+        "prefix": "mx/stats/warrant/high"
+      },
+      "volume": {
+        "topic": "mx/stats/warrant/volume@lvl2",
+        "qos": "dl",
+        "prefix": "mx/stats/warrant/volume"
+      }
+    },
+    "statsFuture": {
+      "low": {
+        "topic": "mx/stats/future/low@lvl2",
+        "qos": "dl",
+        "prefix": "mx/stats/future/low"
+      },
+      "high": {
+        "topic": "mx/stats/future/high@lvl2",
+        "qos": "dl",
+        "prefix": "mx/stats/future/high"
+      },
+      "volume": {
+        "topic": "mx/stats/future/volume@lvl2",
+        "qos": "dl",
+        "prefix": "mx/stats/future/volume"
+      }
+    },
+    "statsOption": {
+      "low": {
+        "topic": "mx/stats/option/low@lvl2",
+        "qos": "dl",
+        "prefix": "mx/stats/option/low"
+      },
+      "high": {
+        "topic": "mx/stats/option/high@lvl2",
+        "qos": "dl",
+        "prefix": "mx/stats/option/high"
+      },
+      "volume": {
+        "topic": "mx/stats/option/volume@lvl2",
+        "qos": "dl",
+        "prefix": "mx/stats/option/volume"
+      }
+    },
+    "news": {
+      "topic": "mx/news@matriks",
+      "qos": "rt",
+      "prefix": "mx/news"
+    },
+    "newsAi": {
+      "topic": "mx/news@aimatriks",
+      "qos": "rt",
+      "prefix": "mx/news"
+    },
+    "newsComment": {
+      "topic": "mx/news@comment",
+      "qos": "rt",
+      "prefix": "mx/news@comment"
+    },
+    "newsCommentAi": {
+      "topic": "mx/news@aicomment",
+      "qos": "rt",
+      "prefix": "mx/news@aicomment"
+    },
+    "analytics": {
+      "option": {
+        "topic": "mx/analytics/option/%s",
+        "qos": "dl",
+        "prefix": "mx/analytics/option"
+      },
+      "warrant": {
+        "topic": "mx/analytics/warrant/%s",
+        "qos": "dl",
+        "prefix": "mx/analytics/warrant"
+      }
+    },
+    "arf": {
+      "topic": "",
+      "qos": "rt",
+      "prefix": "mx/arf"
+    },
+    "arf_v2": {
+      "topic": "",
+      "qos": "rt",
+      "prefix": "mx/arf"
+    },
+    "timestamp": {
+      "topic": "mx/timestamp",
+      "qos": "rt",
+      "prefix": "mx/timestamp"
+    },
+    "session": {
+      "topic": "",
+      "qos": "rt",
+      "prefix": "mx/session"
+    },
+    "depth": {
+      "E": {
+        "topic": "mx/depth/%s@lvl2",
+        "qos": "rt",
+        "prefix": "mx/depth"
+      }
+    },
+    "depthExtended": {
+      "E": {
+        "topic": "mx/depth/%s@lvl3",
+        "qos": "rt",
+        "prefix": "mx/depth"
+      }
+    },
+    "trade": {
+      "E": {
+        "topic": "mx/trade/%s",
+        "qos": "rt",
+        "prefix": "mx/trade"
+      }
+    },
+    "tradeex": {
+      "E": {
+        "topic": "mx/tradeex/%s",
+        "qos": "rt",
+        "prefix": "mx/trade"
+      }
+    },
+    "newsInt": {
+      "topic": "mx/news@int",
+      "qos": "rt",
+      "prefix": "mx/news"
+    },
+    "newsIntAi": {
+      "topic": "mx/news@aiint",
+      "qos": "rt",
+      "prefix": "mx/news"
+    }
+  },
+  "rest": {
+    "arf": {},
+    "arf_v2": {},
+    "bar": {},
+    "wealth": {},
+    "tpd": {},
+    "agentAssets": {},
+    "news": {
+      "search": {},
+      "page": {},
+      "id": {}
+    },
+    "metaData": {
+      "symbols": {},
+      "markets": {},
+      "viopMarkets": {},
+      "members": {},
+      "exchanges": {},
+      "sectors": {}
+    }
+  }
+}

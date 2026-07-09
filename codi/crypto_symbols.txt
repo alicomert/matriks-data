@@ -1,0 +1,18 @@
+Sembol Adı - Açıklama
+BTC_TRY - Bitcoin / Turk Lirasi (BtcTurk)
+BTC_USDT - Bitcoin / Dolar (BtcTurk)
+BTC_TRY_BIN - Bitcoin / TRY (Binance)
+BTC_USDT_BIN - Bitcoin / USDT (Binance)
+BTC_FDUSD_BIN - Bitcoin / First Digital USD (Binance)
+BTC_USDC_FBIN - Bitcoin / USDC (Binance Futures)
+BTC_USDT_FBIN - Bitcoin / USDT (Binance Futures)
+BTC_DOMINANCE - Bitcoin Hakimiyeti
+ETH_BTC_BIN - Ethereum / Bitcoin (Binance)
+ETH_TRY - Ethereum / Turk Lirasi (BtcTurk)
+ETH_USDT - Ethereum / Dolar (BtcTurk)
+ETH_TRY_BIN - Ethereum / TRY (Binance)
+ETH_USDT_BIN - Ethereum / USDT (Binance)
+ETH_FDUSD_BIN - Ethereum / First Digital USD (Binance)
+ETH_USDC_FBIN - Ethereum / USDC (Binance Futures)
+ETH_USDT_FBIN - Ethereum / USDT (Binance Futures)
+ETHW_USDT_FBIN - Ethereum PoW / USDT (Binance Futures)

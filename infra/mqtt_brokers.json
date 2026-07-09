@@ -1,0 +1,1164 @@
+{
+  "mx/news": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/news",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/news",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/news",
+      "rt": "ws://rtstream.radix.matriksdata.com/news"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/news",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/news"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34552",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34452"
+    }
+  },
+  "mx/news@comment": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/news",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/news",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/news",
+      "rt": "ws://rtstream.radix.matriksdata.com/news"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/news",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/news"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34552",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34452"
+    }
+  },
+  "mx/news@kap": {
+    "rt": "wss://rtstream.radix.matriksdata.com:443/news",
+    "ws": {
+      "rt": "ws://rtstream.radix.matriksdata.com:443/news"
+    },
+    "wss": {
+      "rt": "wss://rtstream.radix.matriksdata.com:443/news"
+    },
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34452"
+    }
+  },
+  "mx/news@aa": {
+    "rt": "wss://rtstream.radix.matriksdata.com:443/news",
+    "ws": {
+      "rt": "ws://rtstream.radix.matriksdata.com:443/news"
+    },
+    "wss": {
+      "rt": "wss://rtstream.radix.matriksdata.com:443/news"
+    },
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34452"
+    }
+  },
+  "mx/news@ai": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/news",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/news",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/news",
+      "rt": "ws://rtstream.radix.matriksdata.com/news"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/news",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/news"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34552",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34452"
+    }
+  },
+  "mx/news@aicomment": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/news",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/news",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/news",
+      "rt": "ws://rtstream.radix.matriksdata.com/news"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/news",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/news"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34552",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34452"
+    }
+  },
+  "mx/news@aikap": {
+    "rt": "wss://rtstream.radix.matriksdata.com:443/news",
+    "ws": {
+      "rt": "ws://rtstream.radix.matriksdata.com:443/news"
+    },
+    "wss": {
+      "rt": "wss://rtstream.radix.matriksdata.com:443/news"
+    },
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34452"
+    }
+  },
+  "mx/news@aiaa": {
+    "rt": "wss://rtstream.radix.matriksdata.com:443/news",
+    "ws": {
+      "rt": "ws://rtstream.radix.matriksdata.com:443/news"
+    },
+    "wss": {
+      "rt": "wss://rtstream.radix.matriksdata.com:443/news"
+    },
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34452"
+    }
+  },
+  "mx/iex/symbol": {
+    "rt": "wss://rtstream.radix.matriksdata.com/foreignmarket",
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34459"
+    },
+    "ws": {
+      "dl": "",
+      "rt": "ws://rtstream.radix.matriksdata.com/foreignmarket"
+    },
+    "wss": {
+      "dl": "",
+      "rt": "wss://rtstream.radix.matriksdata.com/foreignmarket"
+    }
+  },
+  "mx/iex/trade": {
+    "rt": "wss://rtstream.radix.matriksdata.com/foreigntrade",
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34460"
+    },
+    "ws": {
+      "dl": "",
+      "rt": "ws://rtstream.radix.matriksdata.com/foreigntrade"
+    },
+    "wss": {
+      "dl": "",
+      "rt": "wss://rtstream.radix.matriksdata.com/foreigntrade"
+    }
+  },
+  "mx/nbbo/symbol": {
+    "rt": "wss://rtstream.radix.matriksdata.com/foreignmarket",
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34459"
+    },
+    "ws": {
+      "dl": "",
+      "rt": "ws://rtstream.radix.matriksdata.com/foreignmarket"
+    },
+    "wss": {
+      "dl": "",
+      "rt": "wss://rtstream.radix.matriksdata.com/foreignmarket"
+    }
+  },
+  "mx/symbol": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/market",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/market",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/market",
+      "rt": "ws://rtstream.radix.matriksdata.com/market"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/market",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/market"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34551",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34451"
+    }
+  },
+  "mx/fundratio": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/market",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/market",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/market",
+      "rt": "ws://rtstream.radix.matriksdata.com/market"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/market",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/market"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34551",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34451"
+    }
+  },
+  "mx/ratingscore": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/market",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/market",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/market",
+      "rt": "ws://rtstream.radix.matriksdata.com/market"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/market",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/market"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34551",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34451"
+    }
+  },
+  "mx/derivative": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/market",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/market",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/market",
+      "rt": "ws://rtstream.radix.matriksdata.com/market"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/market",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/market"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34551",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34451"
+    }
+  },
+  "mx/stats/high": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/high/weekly": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/high/monthly": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/high/yearly": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/low": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/low/weekly": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/low/monthly": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/low/yearly": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/volume": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/volume/weekly": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/volume/monthly": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/volume/yearly": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/warrant/high": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/warrant/low": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/warrant/volume": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/db/warrant/high": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/db/warrant/low": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/db/warrant/quantity": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/osm/warrant/high": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/osm/warrant/low": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/osm/warrant/volume": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/akm/warrant/high": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/akm/warrant/low": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/akm/warrant/volume": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/garan/warrant/high": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/garan/warrant/low": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/garan/warrant/volume": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/iyf/warrant/high": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/iyf/warrant/low": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/iyf/warrant/volume": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/future/high": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/future/low": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/future/volume": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/osm/future/high": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/osm/future/low": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/osm/future/volume": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/gdk/future/high": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/gdk/future/low": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/gdk/future/volume": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/option/high": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/option/low": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/stats/option/volume": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/stats",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/stats",
+      "rt": "ws://rtstream.radix.matriksdata.com/stats"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/stats",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/stats"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34553",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34453"
+    }
+  },
+  "mx/trade": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/trade",
+    "rt": "wss://rtstream.radix.matriksdata.com/trade",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/trade",
+      "rt": "ws://rtstream.radix.matriksdata.com/trade"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/trade",
+      "rt": "wss://rtstream.radix.matriksdata.com/trade"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34554",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34454"
+    }
+  },
+  "mx/pgc": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/trade",
+    "rt": "wss://rtstream.radix.matriksdata.com/trade",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/trade",
+      "rt": "ws://rtstream.radix.matriksdata.com/trade"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/trade",
+      "rt": "wss://rtstream.radix.matriksdata.com/trade"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34554",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34454"
+    }
+  },
+  "mx/depth": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/depth",
+    "rt": "wss://rtstream.radix.matriksdata.com/depth",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/depth",
+      "rt": "ws://rtstream.radix.matriksdata.com/depth"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/depth",
+      "rt": "wss://rtstream.radix.matriksdata.com/depth"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34555",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34455"
+    }
+  },
+  "mx/depthstats": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/depth",
+    "rt": "wss://rtstream.radix.matriksdata.com/depth",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/depth",
+      "rt": "ws://rtstream.radix.matriksdata.com/depth"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/depth",
+      "rt": "wss://rtstream.radix.matriksdata.com/depth"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34555",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34455"
+    }
+  },
+  "mx/booklet": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/depth",
+    "rt": "wss://rtstream.radix.matriksdata.com/depth",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/depth",
+      "rt": "ws://rtstream.radix.matriksdata.com/depth"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/depth",
+      "rt": "wss://rtstream.radix.matriksdata.com/depth"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34555",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34455"
+    }
+  },
+  "mx/analytics/option": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/analytics",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/analytics",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/analytics",
+      "rt": "ws://rtstream.radix.matriksdata.com/analytics"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/analytics",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/analytics"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34556",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34456"
+    }
+  },
+  "mx/analytics/warrant": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/analytics",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/analytics",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/analytics",
+      "rt": "ws://rtstream.radix.matriksdata.com/analytics"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/analytics",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/analytics"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34556",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34456"
+    }
+  },
+  "mx/analytics/db/warrant": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/analytics",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/analytics",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/analytics",
+      "rt": "ws://rtstream.radix.matriksdata.com/analytics"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/analytics",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/analytics"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34556",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34456"
+    }
+  },
+  "mx/analytics/akm/warrant": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/analytics",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/analytics",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/analytics",
+      "rt": "ws://rtstream.radix.matriksdata.com/analytics"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/analytics",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/analytics"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34556",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34456"
+    }
+  },
+  "mx/analytics/garan/warrant": {
+    "dl": "wss://dlstream.radix.matriksdata.com:443/analytics",
+    "rt": "wss://rtstream.radix.matriksdata.com:443/analytics",
+    "ws": {
+      "dl": "ws://dlstream.radix.matriksdata.com/analytics",
+      "rt": "ws://rtstream.radix.matriksdata.com/analytics"
+    },
+    "wss": {
+      "dl": "wss://dlstream.radix.matriksdata.com:443/analytics",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/analytics"
+    },
+    "tcp": {
+      "dl": "tcp://dlstream.radix.matriksdata.com:34556",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34456"
+    }
+  },
+  "mx/arf": {
+    "rt": "wss://rt.radix.matriksdata.com/arf",
+    "ws": {
+      "dl": "",
+      "rt": "ws://rt.radix.matriksdata.com/arf"
+    },
+    "wss": {
+      "dl": "",
+      "rt": "wss://rt.radix.matriksdata.com/arf"
+    },
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rt.radix.matriksdata.com:34457"
+    }
+  },
+  "mx/timestamp": {
+    "rt": "wss://rtstream.radix.matriksdata.com:443/market",
+    "ws": {
+      "dl": "",
+      "rt": "ws://rtstream.radix.matriksdata.com/market"
+    },
+    "wss": {
+      "dl": "",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/market"
+    },
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34451"
+    }
+  },
+  "mx/session": {
+    "rt": "wss://rtstream.radix.matriksdata.com:443/session",
+    "ws": {
+      "dl": "",
+      "rt": "ws://rtstream.radix.matriksdata.com/session"
+    },
+    "wss": {
+      "dl": "",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/session"
+    },
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34458"
+    }
+  },
+  "mx/event/prime/symbol": {
+    "rt": "wss://rtstream.radix.matriksdata.com:443/news",
+    "ws": {
+      "dl": "",
+      "rt": "ws://rtstream.radix.matriksdata.com/news"
+    },
+    "wss": {
+      "dl": "",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/news"
+    },
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34452"
+    }
+  },
+  "mx/event/prime/agent": {
+    "rt": "wss://rtstream.radix.matriksdata.com:443/news",
+    "ws": {
+      "dl": "",
+      "rt": "ws://rtstream.radix.matriksdata.com/news"
+    },
+    "wss": {
+      "dl": "",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/news"
+    },
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34452"
+    }
+  },
+  "mx/event/prime/derivative": {
+    "rt": "wss://rtstream.radix.matriksdata.com:443/news",
+    "ws": {
+      "dl": "",
+      "rt": "ws://rtstream.radix.matriksdata.com/news"
+    },
+    "wss": {
+      "dl": "",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/news"
+    },
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34452"
+    }
+  },
+  "mx/event/prime/index": {
+    "rt": "wss://rtstream.radix.matriksdata.com:443/news",
+    "ws": {
+      "dl": "",
+      "rt": "ws://rtstream.radix.matriksdata.com/news"
+    },
+    "wss": {
+      "dl": "",
+      "rt": "wss://rtstream.radix.matriksdata.com:443/news"
+    },
+    "tcp": {
+      "dl": "",
+      "rt": "tcp://rtstream.radix.matriksdata.com:34452"
+    }
+  }
+}

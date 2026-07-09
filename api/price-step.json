@@ -1,0 +1,127 @@
+[
+  {
+    "SymbolType": "S",
+    "PriceRanges": [
+      {
+        "UpperLimit": 20.0,
+        "PriceStep": 0.01
+      },
+      {
+        "UpperLimit": 50.0,
+        "PriceStep": 0.02
+      },
+      {
+        "UpperLimit": 100.0,
+        "PriceStep": 0.05
+      },
+      {
+        "UpperLimit": 250.0,
+        "PriceStep": 0.1
+      },
+      {
+        "UpperLimit": 500.0,
+        "PriceStep": 0.25
+      },
+      {
+        "UpperLimit": 1000.0,
+        "PriceStep": 0.5
+      },
+      {
+        "UpperLimit": 2500.0,
+        "PriceStep": 1.0
+      },
+      {
+        "UpperLimit": 999999999.0,
+        "PriceStep": 2.5
+      }
+    ]
+  },
+  {
+    "SymbolType": "R",
+    "PriceRanges": [
+      {
+        "UpperLimit": 20.0,
+        "PriceStep": 0.01
+      },
+      {
+        "UpperLimit": 50.0,
+        "PriceStep": 0.02
+      },
+      {
+        "UpperLimit": 100.0,
+        "PriceStep": 0.05
+      },
+      {
+        "UpperLimit": 250.0,
+        "PriceStep": 0.1
+      },
+      {
+        "UpperLimit": 500.0,
+        "PriceStep": 0.25
+      },
+      {
+        "UpperLimit": 1000.0,
+        "PriceStep": 0.5
+      },
+      {
+        "UpperLimit": 2500.0,
+        "PriceStep": 1.0
+      },
+      {
+        "UpperLimit": 999999999.0,
+        "PriceStep": 2.5
+      }
+    ]
+  },
+  {
+    "SymbolType": "M",
+    "PriceRanges": [
+      {
+        "UpperLimit": 50.0,
+        "PriceStep": 0.01
+      },
+      {
+        "UpperLimit": 100.0,
+        "PriceStep": 0.02
+      },
+      {
+        "UpperLimit": 250.0,
+        "PriceStep": 0.05
+      },
+      {
+        "UpperLimit": 500.0,
+        "PriceStep": 0.1
+      },
+      {
+        "UpperLimit": 1000.0,
+        "PriceStep": 0.25
+      },
+      {
+        "UpperLimit": 2500.0,
+        "PriceStep": 0.5
+      },
+      {
+        "UpperLimit": 999999999.0,
+        "PriceStep": 1.0
+      }
+    ]
+  },
+  {
+    "SymbolType": "V",
+    "PriceRanges": [
+      {
+        "UpperLimit": 999999999.0,
+        "PriceStep": 0.01
+      }
+    ]
+  },
+  {
+    "SymbolType": "C",
+    "PriceRanges": [
+      {
+        "UpperLimit": 999999999.0,
+        "PriceStep": 0.01
+      }
+    ]
+  }
+]

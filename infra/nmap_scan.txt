@@ -1,0 +1,99 @@
+# Nmap 7.99 scan initiated Thu Jul  9 12:14:23 2026 as: /usr/lib/nmap/nmap -sV -sC -O -p 80,443 --version-intensity 9 -v -oN /workspace/nmap_scan.txt 85.111.20.123
+Nmap scan report for 85.111.20.123.dynamic.ttnet.com.tr (85.111.20.123)
+Host is up (0.073s latency).
+
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Content-Type: text/html; charset=us-ascii
+|     Date: Thu, 09 Jul 2026 12:14:30 GMT
+|     Connection: close
+|     Content-Length: 315
+|     Set-Cookie: TS01934ab1=0105fd845aaccd6926e31965747f0cce25ca1bf25991b6e10a32e7d6244cd88f405cda314c44938362c4866d70a0aaa8de404b9620; Path=/
+|     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+|     <HTML><HEAD><TITLE>Not Found</TITLE>
+|     <META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+|     <BODY><h2>Not Found</h2>
+|     <hr><p>HTTP Error 404. The requested resource is not found.</p>
+|     </BODY></HTML>
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Content-Type: text/html; charset=us-ascii
+|     Date: Thu, 09 Jul 2026 12:14:30 GMT
+|     Connection: close
+|     Content-Length: 315
+|     Set-Cookie: TS01934ab1=0105fd845a70624d053ccee1eedebe2eb2d5d7c555bc7013287bddc274747912429e018d8fc26d06616d6fad3897fab3fee1c59ca7; Path=/
+|     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+|     <HTML><HEAD><TITLE>Not Found</TITLE>
+|     <META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+|     <BODY><h2>Not Found</h2>
+|     <hr><p>HTTP Error 404. The requested resource is not found.</p>
+|     </BODY></HTML>
+|   RTSPRequest: 
+|     HTTP/1.1 200 OK
+|     X-Frame-Options: SAMEORIGIN
+|     X-XSS-Protection: 1; mode=block
+|     X-Content-Type-Options: nosniff
+|     Cache-Control: no-cache
+|     Connection: close
+|     Content-Type: text/html; charset=utf-8
+|     Pragma: no-cache
+|     Content-Length: 244
+|_    <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: 52824440684821033<br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>
+443/tcp open  ssl/https?
+| ssl-cert: Subject: commonName=*.matriksdata.com/organizationName=Matriks Finansal Teknolojiler A.\xC5\x9E/stateOrProvinceName=\xC4\xB0stanbul/countryName=TR
+| Subject Alternative Name: DNS:*.matriksdata.com, DNS:matriksdata.com, DNS:www.matriksdata.com
+| Issuer: commonName=GeoTrust TLS RSA CA G1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-09-24T00:00:00
+| Not valid after:  2026-10-25T23:59:59
+| MD5:     a9eb 7d96 8e68 430a 4cba cd70 8f62 2e09
+| SHA-1:   464f ce76 d557 ec4e a086 99bf ae32 accf 8548 ed5b
+|_SHA-256: 23df 7498 b926 7cd2 dd6e 6f9d c7af 9ed8 4dcc ad2f 99ec 95f7 5975 7e80 5097 a239
+|_ssl-date: TLS randomness does not represent time
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.99%I=9%D=7/9%Time=6A4F90A6%P=x86_64-pc-linux-gnu%r(GetRe
+SF:quest,258,"HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Type:\x20text/ht
+SF:ml;\x20charset=us-ascii\r\nDate:\x20Thu,\x2009\x20Jul\x202026\x2012:14:
+SF:30\x20GMT\r\nConnection:\x20close\r\nContent-Length:\x20315\r\nSet-Cook
+SF:ie:\x20TS01934ab1=0105fd845aaccd6926e31965747f0cce25ca1bf25991b6e10a32e
+SF:7d6244cd88f405cda314c44938362c4866d70a0aaa8de404b9620;\x20Path=/\r\n\r\
+SF:n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\"h
+SF:ttp://www\.w3\.org/TR/html4/strict\.dtd\">\r\n<HTML><HEAD><TITLE>Not\x2
+SF:0Found</TITLE>\r\n<META\x20HTTP-EQUIV=\"Content-Type\"\x20Content=\"tex
+SF:t/html;\x20charset=us-ascii\"></HEAD>\r\n<BODY><h2>Not\x20Found</h2>\r\
+SF:n<hr><p>HTTP\x20Error\x20404\.\x20The\x20requested\x20resource\x20is\x2
+SF:0not\x20found\.</p>\r\n</BODY></HTML>\r\n")%r(HTTPOptions,258,"HTTP/1\.
+SF:1\x20404\x20Not\x20Found\r\nContent-Type:\x20text/html;\x20charset=us-a
+SF:scii\r\nDate:\x20Thu,\x2009\x20Jul\x202026\x2012:14:30\x20GMT\r\nConnec
+SF:tion:\x20close\r\nContent-Length:\x20315\r\nSet-Cookie:\x20TS01934ab1=0
+SF:105fd845a70624d053ccee1eedebe2eb2d5d7c555bc7013287bddc274747912429e018d
+SF:8fc26d06616d6fad3897fab3fee1c59ca7;\x20Path=/\r\n\r\n<!DOCTYPE\x20HTML\
+SF:x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\"http://www\.w3\.org/
+SF:TR/html4/strict\.dtd\">\r\n<HTML><HEAD><TITLE>Not\x20Found</TITLE>\r\n<
+SF:META\x20HTTP-EQUIV=\"Content-Type\"\x20Content=\"text/html;\x20charset=
+SF:us-ascii\"></HEAD>\r\n<BODY><h2>Not\x20Found</h2>\r\n<hr><p>HTTP\x20Err
+SF:or\x20404\.\x20The\x20requested\x20resource\x20is\x20not\x20found\.</p>
+SF:\r\n</BODY></HTML>\r\n")%r(RTSPRequest,1E1,"HTTP/1\.1\x20200\x20OK\r\nX
+SF:-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\
+SF:r\nX-Content-Type-Options:\x20nosniff\r\nCache-Control:\x20no-cache\r\n
+SF:Connection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\
+SF:nPragma:\x20no-cache\r\nContent-Length:\x20244\r\n\r\n<html><head><titl
+SF:e>Request\x20Rejected</title></head><body>The\x20requested\x20URL\x20wa
+SF:s\x20rejected\.\x20Please\x20consult\x20with\x20your\x20administrator\.
+SF:<br><br>Your\x20support\x20ID\x20is:\x2052824440684821033<br><br><a\x20
+SF:href='javascript:history\.back\(\);'>\[Go\x20Back\]</a></body></html>");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Uptime guess: 13.753 days (since Thu Jun 25 18:17:08 2026)
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: Randomized
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jul  9 12:21:50 2026 -- 1 IP address (1 host up) scanned in 447.25 seconds
