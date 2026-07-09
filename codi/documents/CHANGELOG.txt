@@ -1,0 +1,21 @@
+Extraction method: Translate trick
+Length: 853 chars
+================================================================================
+
+**Versiyon 4.1.2 yenilikleri:**  
+Formüllü Fiyat Penceresine emir gönderim özelliği eklendi.  
+SendMarketOrder(Koşul, Emir Sayısı/Toplam Miktar, Sembol, Miktar, Yön, HerGüncellemedeEmirGönderilsinMi, Emir gönderim tipi)  
+SendLimitOrder(Koşul, Emir Sayısı/Toplam Miktar, Sembol, Miktar, Yön, Fiyat, HerGüncellemedeEmirGönderilsinMi, Emir gönderim tipi)  
+
+**Versiyon 4.1.3 yenilikleri:**  
+SendOrderSequential fonksiyonu eklendi.  
+On Balance Volume Ex. indikatörü eklendi.  
+ZigZagI indikatörü eklendi.  
+
+**Versiyon 5.1.0.5 yenilikleri:**  
+AddNewsKeyword(string Symbol, [bool onlyInHeaders], [bool isExactMatch])  
+AddNewsSymbolKeyword(string Symbol, List<string> keyWords, [bool onlyInHeaders], [bool isExactMatch])  
+SendMail(string mailAdress, [string message])  
+SendTelegramBot([string message])  
+
+Hata düzeltmesi dokümanlarda belirtilmemiştir.
